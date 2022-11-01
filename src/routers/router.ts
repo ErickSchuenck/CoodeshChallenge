@@ -1,9 +1,9 @@
 import express from "express";
 
-import etcRouters from "./etcRouters";
+import productRouters from "./productRouters";
 
 const router = express.Router();
 
-router.use(etcRouters);
+router.use(productRouters);
 
 export default router;
